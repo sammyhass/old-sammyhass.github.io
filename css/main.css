@@ -1,0 +1,63 @@
+* {
+	font-family: "Inconsolata";
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-weight: normal;
+}
+.title h1 {
+	font-family: "Fjalla One";
+	text-align: center;
+	font-size: 5em;
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+}
+.title p {
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+.title  {
+	margin: 0;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background: #f9f9f9;
+	width: 100%;
+}
+.title .soc {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+.title .soc a {
+	width: 33%;
+	color: #333;
+	text-align: center;
+	display: inline;
+	transition-property: color;
+	transition-duration: 0.2s;
+}
+.title .soc a i {
+	font-size: 1.5em;
+
+}
+.title .soc .github:hover {
+	color:#5ca941;
+}
+.title .soc .twitter:hover {
+	color:#0084b4;
+}
+.title .soc .youtube:hover {
+	color: #e52d27;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	text-align: justify;
+}
+.about, .what {
+	border-bottom: 1px solid #333;
+}
