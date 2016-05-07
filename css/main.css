@@ -76,7 +76,22 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 }
 @media (max-width: 328px) {
-	body {
-		display: none;
+	.title h1 {
+		font-size: 2.5em;
+	}
+	.title p {
+		font-size: 0.6em;
+	}
+	p {
+		font-size: 0.5em;
+	}
+	.title .soc a i {
+		font-size: 0.75em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	ul li {
+		font-size: 0.5em;
 	}
 }
