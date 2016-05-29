@@ -1,0 +1,108 @@
+html {
+	background: #f9f9f9;
+	font-family: "Source Sans Pro";
+}
+#instafeed {
+	margin: auto;
+
+}
+#instafeed img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	width: 10%;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+#instafeed img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+}
+h1 {
+	text-align: center;
+	font-size: 6em;
+	margin: auto;
+	font-family: "Oswald";
+	font-weight: normal;
+	text-transform: uppercase;
+	width: 50%;
+}
+.container {
+	width: 85%;
+	margin: auto;
+}
+.meCont {
+	width: 10%;
+	margin: auto;
+}
+.meCont2 > img, .me {
+	background: url("../img/me.jpg");
+	text-align: center;
+	width: 130px;
+	height: 130px;
+	padding: 0;
+	margin-bottom: 25px;
+	margin-top: 35px;
+	border-radius: 50%;
+}
+h2 {
+	font-size: 3em;
+	text-align: center;
+	font-family: "Oswald";
+}
+.section {
+	margin: 0;
+	padding: 0;
+}
+.red {
+	color: #F44336;
+}
+.blue {
+	color: #2196F3;
+}
+.green {
+	color: #009688;
+}
+.orange {
+	color: #FFC107;
+}
+.purple {
+	color: #9C27B0;
+}
+.lime {
+	color: #4CAF50;
+}
+.meCont2 img {
+	width: 250px;
+	height: 250px;
+}
+.meCont2 {
+	width: 15%;
+	margin: auto;
+}
+.center {
+	text-align: center;
+}
+.section ul {
+	margin-left: 20%;
+}
+.as a {
+	color: black;
+	text-decoration: none;
+	transition-property: all;
+	transition-duration: 0.2s;
+	margin: 20px;
+}
+.as a:hover {
+	font-size: 2em;
+}
+.soc {
+	font-size: 40px;
+	text-align: center;
+	
+}
+.soc * {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	margin: 20px;
+}
