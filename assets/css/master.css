@@ -100,9 +100,25 @@ h2 {
 	text-align: center;
 	
 }
-.soc * {
+.soc a {
 	color: #000;
 	text-decoration: none;
 	text-align: center;
 	margin: 20px;
+}
+.face, .git, .snap, .insta {
+	transition-duration: 0.3s;
+	transition-property: all;
+}
+.face:hover {
+	color: #3b5998;
+}
+.snap:hover {
+	color: #ffcc00;
+}
+.git:hover {
+	color: #6cc644;
+}
+.insta:hover {
+	color: #fd1d1d;
 }
