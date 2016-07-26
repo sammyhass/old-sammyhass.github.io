@@ -4,6 +4,9 @@
 	.clear {
 		display: block;
 	}
+	&:hover {
+		cursor: url(http://ani.cursors-4u.net/smiley/smi-3/smi296.cur), progress !important;
+	}
 	.projPan>div {
 		width: 90%;
 		margin: auto;
