@@ -1,0 +1,23 @@
+.header {
+	background: $red;
+	font-weight: normal;
+	padding: 0.5em;
+	* {
+		margin: 0;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	text-align: center;	
+	font-weight: normal;
+
+	@media (min-width: 1024px) {
+		h1 {
+			font-size: 5em;
+		}
+		padding: 2em;
+		p {
+			font-size: 2em;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.about {
+	background: $orange;
+	padding: 1px 0;
+	margin-bottom: 0;
+	border-bottom: 5px solid darken($orange, 15%);
+	@media (min-width: 1024px) {
+		float: left;
+		width: 50%;
+		height: 350px;
+	}
+}

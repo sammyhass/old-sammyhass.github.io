@@ -1,0 +1,13 @@
+sammyhass.github.io
+	[
+		-> index.html
+		/ css
+		/ sass
+			-> main.scss
+			-> _vars.scss
+			-> _mixins.scss
+			/ components
+				-> for each
+		-> package.json
+		-> gulpfile.js
+	]
