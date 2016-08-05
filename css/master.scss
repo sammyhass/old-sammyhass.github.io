@@ -1,11 +1,9 @@
 body {
+
 	@media (max-width: 720px) {
 		font-size: 1.3em;
 	}
-	#fourth ul {
-		list-style: none;
-		
-	}
+
 	.fa-twitter, .fa-github, .fa-envelope {
 			transition-property: all;
 		transition-duration: 0.2s;
@@ -19,13 +17,7 @@ body {
 	.fa-envelope:hover {
 		color: #db0011;
 	}
-	#fourth ul li {
-		float: left;
-		width: 33%;
-		text-align: center;
-		font-size: 3em;
 
-	}
 	.clearfix:after {
 	  content: "";
 	  display: table;
@@ -103,5 +95,23 @@ body {
 		width: 70% !important;
 		margin: auto !important;
 
+	}
+	#fourth {
+
+		ul {
+			list-style: none;
+			
+			li {
+				float: left;
+				width: 33%;
+				text-align: center;
+				font-size: 3em;
+				a {
+					text-decoration: none;
+					color: #000;
+				}
+
+		}
+	}
 	}
 }
