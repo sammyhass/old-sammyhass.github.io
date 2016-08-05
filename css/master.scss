@@ -1,9 +1,9 @@
 body {
 
-	#fourth ul {
-		list-style: none;
-		
+	@media (max-width: 720px) {
+		font-size: 1.3em;
 	}
+
 	.fa-twitter, .fa-github, .fa-envelope {
 			transition-property: all;
 		transition-duration: 0.2s;
@@ -17,13 +17,7 @@ body {
 	.fa-envelope:hover {
 		color: #db0011;
 	}
-	#fourth ul li {
-		float: left;
-		width: 33%;
-		text-align: center;
-		font-size: 3em;
 
-	}
 	.clearfix:after {
 	  content: "";
 	  display: table;
@@ -32,6 +26,8 @@ body {
 	h2 {
 		font-size: 3.2em;
 		text-align: center;
+		font-family: "Pacifico";
+
 	}
 	font-family: "Nunito";
 	color: #000;
@@ -44,10 +40,16 @@ body {
 		size: cover;
 		text-align: center;
 		h1 {
+			-webkit-transform: rotate(-21deg);
+			   -moz-transform: rotate(-21deg);
+			    -ms-transform: rotate(-21deg);
+			     -o-transform: rotate(-21deg);
+			        transform: rotate(-21deg);
 			margin-top: 20%;
 			margin-left: 50%;
 			font-size: 1.7em;
 			font-weight: bold;
+			font-family: "Pacifico";
 			@media (max-width: 1521px) {
 				font-size: 1.41em;
 			}
@@ -66,6 +68,26 @@ body {
 
 	}
 
+	#third {
+		text-align: center;
+		ul {
+			list-style: none;
+			li {
+				float: left;
+				width: 20%;
+				font-family: monospace;
+				@media (max-width: 720px) {
+					float: none;
+					text-align: center;
+					width: auto;
+				}
+			}
+			#node {
+
+			}
+		}
+	}
+
 	#second, #third, #fourth {
 		margin-top: 0px;
 		padding: 1px;
@@ -73,5 +95,23 @@ body {
 		width: 70% !important;
 		margin: auto !important;
 
+	}
+	#fourth {
+
+		ul {
+			list-style: none;
+			
+			li {
+				float: left;
+				width: 33%;
+				text-align: center;
+				font-size: 3em;
+				a {
+					text-decoration: none;
+					color: #000;
+				}
+
+		}
+	}
 	}
 }
