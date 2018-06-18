@@ -21,7 +21,7 @@ body {
   body h2 {
     font-size: 3.2em;
     text-align: center;
-    font-family: "Pacifico"; }
+    font-family: "Ubuntu"; }
   body #first {
     background: url("../img/logo.svg");
     background-repeat: no-repeat;
@@ -82,5 +82,8 @@ body {
       body #fourth ul li a {
         text-decoration: none;
         color: #000; }
+#first h1 {
+  font-family: "Pacifico";
+}
 
 /*# sourceMappingURL=master.css.map */
