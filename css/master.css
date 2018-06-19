@@ -5,6 +5,9 @@ body {
   @media (max-width: 720px) {
     body {
       font-size: 1.3em; } }
+  body #main-h1 {
+    font-family: "Pacifico";
+    font-weight: normal; }
   body .fa-twitter, body .fa-github, body .fa-envelope {
     transition-property: all;
     transition-duration: 0.2s; }
@@ -38,7 +41,7 @@ body {
       margin-left: 50%;
       font-size: 1.7em;
       font-weight: bold;
-      font-family: "Ubuntu"; }
+      font-family: "Pacifico"; }
       @media (max-width: 1521px) {
         body #first h1 {
           font-size: 1.41em; } }
@@ -82,8 +85,5 @@ body {
       body #fourth ul li a {
         text-decoration: none;
         color: #000; }
-#first h1 {
-  font-family: "Pacifico";
-}
 
 /*# sourceMappingURL=master.css.map */
