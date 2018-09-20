@@ -87,8 +87,8 @@ body #third ul {
 }
 body #third ul li {
   float: left;
-  width: 20%;
-  font-family: monospace;
+  width: 25%;
+  font-family: "Roboto Mono", monospace;
 }
 @media (max-width: 720px) {
   body #third ul li {
