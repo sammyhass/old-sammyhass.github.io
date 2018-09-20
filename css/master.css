@@ -36,7 +36,7 @@ body .clearfix:after {
 body h2 {
   font-size: 3.2em;
   text-align: center;
-  font-family: "Ubuntu";
+  font-family: "Nunito";
 }
 body #first {
   background: url("../img/logo.svg");
@@ -118,4 +118,3 @@ body #fourth ul li a {
   color: #000;
 }
 
-/*# sourceMappingURL=master.css.map */
